@@ -26,7 +26,7 @@ section_id: contact
       <div class='medium-8 columns'>
         <div class='form'>
           <div class='row'>
-            <form id='contact_form' method='POST'>
+            <form action="https://formspree.io/info@marcolplastics.co.uk" id='contact_form' method='POST'>
               <div class='large-12 columns'>
                 <p id='thanks' style='display: none;'>
                   Thanks for contacting us, we'll be in touch soon!
@@ -34,9 +34,10 @@ section_id: contact
               </div>
               <div class='medium-12 columns'>
                 <input class='required' name='name' placeholder='NAME' type='text'>
-                <input class='required email' name='email' placeholder='EMAIL' type='text'>
-                <input class='required' name='subject' placeholder='SUBJECT' type='text'>
+                <input class='required email' name='_replyto' placeholder='EMAIL' type='text'>
+                <input class='required' name='_subject' placeholder='SUBJECT' type='text'>
                 <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
                 <input class='button white' type='submit'>
               </div>
             </form>
