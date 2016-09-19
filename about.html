@@ -29,32 +29,59 @@ testimonials:
   <div class='four spacing'></div>
 </div>
 
-<div class='full'>
-  <div class='row'>
-    <div class='medium-6 columns'>
-      <h3>Our history</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-    </div>
-    <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4 style=''>
-                {{skill.title}}
-                <strong>{{skill.percentage}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our History" %}
+      <div class="spacing"></div>
+      <p>
+        In 1990 Marcol Fabrications was established by its two directors, Colin Vye and Mark Godfrey, who have over 35 years combined experience of plastic engineering.
+        The company moved to its current premises in Nailsea in 1997 which, approximately 8 miles from Bristol, gives the company access to major routes throughout the country.
+      </p>
+      <p>
+        Colin and Mark have built a thriving business, focussed on their customers’ requirements, without losing sight of their roots in key plastic technologies.
+        They intend to continue to grow the business, enabling it to be best placed to meet the needs of its customers. The business was incorporated in 1998.
+      </p>
+      <p>
+        Marcol offers excellent service, high quality and competitive prices, from small, one-off items to large projects.
+        In addition to in-house fabrication, Marcol has an experienced site team whose work varies from small welding jobs to complete installations of process plant,
+        scrubbing systems etc, which have been built by us and then installed at our clients’ sites.
+        The site team has worked throughout the UK as well as in Europe and Asia. We also offer advice and consultancy services, AutoCAD drawings, and site visits;
+        everything to ensure your requirements are met.
+      </p>
+      <p>
+        Our clients include small businesses to large multi-national companies in a range of industries including Chemical, Utilities, Nuclear, Aerospace, Pharmaceutical,
+        Steel, Semiconductor and Construction. Please see our Product page for further information.
+      </p>
+      <p>
+        We ensure that our employees are fully trained in any equipment they use. Our fabricators and installers hold EUSR National Water Hygiene Cards—previously known as
+         the “Blue Card”— the CITB Construction Skills Certification Scheme Operative Cards, and the ECITB Client/Contractor National Safety Group Safety Passports,
+         many of them at supervisor level. Please see our Quality and Safety page for more information.
+      </p>
+      <div class="three spacing"></div>
     </div>
   </div>
 </div>
 
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our Mission" %}
+      <div class="spacing"></div>
+      <p>
+        To develop and expand our business in a controlled, efficient and profitable manner with you, our customer, as the primary focus for all our activities.
+      </p>
+      <p>
+        To become the first choice supplier in plastics fabrication through our commitment to supply quality, defect-free products and services first time,
+        every time, on the due date and at realistic prices.
+      </p>
+      <p>
+        If you have a problem, we have the solution. With Marcol, you are in very good hands.
+      </p>
+      <div class="three spacing"></div>
+    </div>
+  </div>
+</div>
 
 <div class='full'>
   <div class='row'>
