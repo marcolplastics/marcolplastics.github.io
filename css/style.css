@@ -2533,7 +2533,7 @@ form input.error, form textarea.error {
   font-size: 5.14286rem;
   line-height: 5.14286rem;
   display: inline-block;
-  color: #5A40F3;
+  color: #fff;
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 40px;
