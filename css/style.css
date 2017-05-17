@@ -2535,13 +2535,13 @@ form input.error, form textarea.error {
   display: inline-block;
   color: #fff;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.28571rem;
-  font-weight: normal;
+  font-weight: 700;
   color: #fff;
   letter-spacing: 2px;
   margin-bottom: 5px;
