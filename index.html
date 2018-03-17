@@ -41,44 +41,44 @@ slides:
 
 
 works:
-  - image: images/@stock/work-1.jpg
+  - image: images/category_images/scrubbing_and_filtration.jpg
     title: Scrubbing &amp; Filtration Systems
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
+  - image: images/category_images/equipment_cabinets.jpg
     title: Equipment Cabinets
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
+  - image: images/category_images/tanks.jpg
     title: Tanks
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
+  - image: images/category_images/ducting_and_pipework.jpg
     title: Plastic Ducting &amp; Pipework
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/portfolio/acid_baths/header.jpg
+  - image: images/category_images/wet_benches.jpg
     title: Wet Benches
-    link_to: portfolio-item-1.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
   - image: images/@stock/work-6.jpg
     title: Machine Guards
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
+  - image: images/category_images/drip_trays.jpg
     title: Drip Trays
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
   - image: images/@stock/work-8.jpg
     title: Bespoke Fabrication
-    link_to: portfolio-item.html
+    link_to: services.html
     klass: graphi-design
     desc: Design &amp; Development
 
@@ -275,7 +275,7 @@ milestones:
   </div>
   <div class='row'>
     {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
+      <div class='large-4 medium-4 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="" src="{{ member.avatar }}" />
@@ -301,67 +301,5 @@ milestones:
     {% endfor %}
   </div>
 </div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.posts %}
-      {% if forloop.index > 3 %}
-        {% break %}
-      {% endif %}
-
-      <div class='large-4 medium-4 columns'>
-        <div class='mod modBlogPost'>
-          {% for image in post.images %}
-            {% unless forloop.first %}
-              {% break %}
-            {% endunless %}
-            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-          {% endfor %}
-          <div class='content'>
-            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
-            <p>{{post.excerpt}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
-          </div>
-        </div>
-      </div>
-
-    {% endfor %}
-
-  </div>
-
-
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='blog.html'>See more posts</a>
-      </p>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-
-</div>
-
 
 {% include our-customers.html %}
