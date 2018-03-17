@@ -1,34 +1,15 @@
 - avatar: images/headshots/colin.jpg
   name: Colin Vye
   position: Founder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/headshots/mark.jpg
   name: Mark Godfrey
   position: Founder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/headshots/rich.jpg
   name: Richard Baker
   position: Placeholder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
