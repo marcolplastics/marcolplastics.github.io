@@ -943,7 +943,7 @@ ul.shortcode-list i {
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
   height: 60px;
-  line-height: 60px;
+  line-height: 50px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
