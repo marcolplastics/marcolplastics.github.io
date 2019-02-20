@@ -2534,6 +2534,7 @@ form input.error, form textarea.error {
   line-height: 5.14286rem;
   display: inline-block;
   color: #fff;
+  text-shadow: 0px 0px 10px black;
   letter-spacing: 2px;
   font-weight: 900;
   margin-bottom: 40px;
@@ -2543,6 +2544,7 @@ form input.error, form textarea.error {
   font-size: 1.28571rem;
   font-weight: 700;
   color: #fff;
+  text-shadow: 0px 0px 10px black;
   letter-spacing: 2px;
   margin-bottom: 5px;
 }
@@ -3599,7 +3601,7 @@ body {
 .modTestimonials .slick-dots li button:before {
   font-size: 30px;
   top: -40px;
-}
+} 
 
 .modTestimonials.simple {
   padding: 0;
