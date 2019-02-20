@@ -3267,10 +3267,12 @@ body {
 
 .modSectionHeader.big h2 {
   font-size: 4rem;
+  text-shadow: 0px 0px 10px black;
 }
 .modSectionHeader.big h3 {
   font-weight: normal;
   letter-spacing: 3px;
+  text-shadow: 0px 0px 10px black;
 }
 
 .modSectionHeader.alt h2 {
