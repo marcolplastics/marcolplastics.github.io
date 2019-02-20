@@ -2949,6 +2949,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
+  padding: 4px;
 }
 .modGallery ul.gallery li a {
   position: relative;
@@ -2956,7 +2957,7 @@ form input.error, form textarea.error {
   overflow: hidden;
 }
 .modGallery ul.gallery li a .overlay {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   text-align: center;
@@ -2969,9 +2970,10 @@ form input.error, form textarea.error {
   transition: all 0.3s linear;
 }
 .modGallery ul.gallery li a .overlay .thumb-info {
-  top: 55%;
   position: relative;
-  opacity: 0;
+  top: 50%;
+  margin-top: -26px;
+  opacity: 1;
 }
 .modGallery ul.gallery li a h3 {
   color: #fff;
@@ -2980,19 +2982,6 @@ form input.error, form textarea.error {
 .modGallery ul.gallery li a p {
   color: #fff;
   font-size: 0.875rem;
-}
-.modGallery ul.gallery li a:hover .overlay {
-  opacity: 1;
-}
-.modGallery ul.gallery li a:hover .overlay .thumb-info {
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  position: relative;
-  top: 50%;
-  margin-top: -26px;
-  opacity: 1;
 }
 .modGallery ul.gallery li a:hover img {
   -moz-transform: scale(1.1);
