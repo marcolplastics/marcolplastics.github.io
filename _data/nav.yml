@@ -7,9 +7,25 @@
 - name: Services
   path: services.html
   section_id: services
-# - name: Portfolio
-#   path: portfolio.html
-#   section_id: portfolio
+- name: Portfolio
+  section_id: portfolio
+  children:
+    - name: Scrubbing Systems
+      path: portfolio-scrubbing_extraction.html
+    - name: Enclosures
+      path: portfolio-enclosures.html
+    - name: Tanks &amp; Bunds
+      path: portfolio-tanks.html
+    - name: Ducting &amp; Extraction Systems
+      path: portfolio-ducting.html
+    - name: Machine Guards
+      path: portfolio-machine_guards.html
+    - name: Pipework
+      path: portfolio-pipework_driptrays.html
+    - name: Bespoke Fabrication
+      path: portfolio-bespoke.html
+    - name: Installation
+      path: portfolio-installation.html
 - name: Technical
   section_id: technical
   children:
