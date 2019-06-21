@@ -2,35 +2,42 @@
 layout: default
 title: Services
 section_id: services
-services_left:
-  - icon: trophy
-    title: Scrubbing &amp; Filtration Systems
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Equipment Cabinets
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Tanks
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Plastic Ducting &amp; Pipework
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-services_right:
-  - icon: trophy
-    title: Wet Benches
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: trophy
+works:
+  - image: images/category_images/scrubbing.jpg
+    title: Scrubbing Systems
+    link_to: portfolio-scrubbing.html
+    klass: graphi-design
+  - image: images/category_images/enclosures.jpg
+    title: Enclosures
+    link_to: portfolio-enclosures.html
+    klass: graphi-design
+  - image: images/category_images/tanks.jpg
+    title: Tanks &amp; Bunds
+    link_to: portfolio-tanks_and_bunds.html
+    klass: graphi-design
+  - image: images/category_images/ducting_and_extraction.jpg
+    title: Ducting &amp; Extraction Systems
+    link_to: portfolio-ducting_and_extraction.html
+    klass: graphi-design
+  - image: images/category_images/machine_guards.jpg
     title: Machine Guards
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: trophy
-    title: Drip Trays
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: trophy
+    link_to: portfolio-machine_guards.html
+    klass: graphi-design
+  - image: images/category_images/drip_trays.jpg
+    title: Pipework
+    link_to: portfolio-pipework_driptrays.html
+    klass: graphi-design
+  - image: images/category_images/bespoke.jpg
     title: Bespoke Fabrication
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    link_to: portfolio-bespoke.html
+    klass: graphi-design
+  - image: images/category_images/wet_benches.jpg
+    title: Installation
+    link_to: portfolio-installation.html
+    klass: graphi-design
 ---
 
-<div class='full parallax' style='background-image: url(images/page_headers/services.jpg); color: #fff;'>
+<div class='full' style='background-image: url(images/page_headers/services.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our services" tagline="Get to know what we do" color="#fff" class="big" %}
@@ -41,32 +48,23 @@ services_right:
 
 
 <div class='full'>
-  <div class='row'>
-    <div class='medium-6 columns'>
-      {% for service in page.services_left %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
+  <div class="mod modGallery">
+      <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+        {% for work in page.works %}
+          <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p style="color: red;">{{ work.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_right %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
   <div class='spacing'></div>
 </div>
 

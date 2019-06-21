@@ -1,34 +1,15 @@
 - avatar: images/headshots/colin.jpg
   name: Colin Vye
   position: Founder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/headshots/mark.jpg
   name: Mark Godfrey
   position: Founder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Mark has over 30 years of experience in plastic fabrication and is still very hands-on; you might even see him managing site installations.
 - avatar: images/headshots/rich.jpg
   name: Richard Baker
-  position: Placeholder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
+  position: Project Manager
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    17 years’ experience in plastic fabrication. From a fabricator on the workshop floor here at Marcol,  Rich progressed to workshop supervisor and then project manager. Interoperating customers’ requirements and assisting with design using 3D modelling software. Successfully managing and delivering projects with some of the UK biggest companies.

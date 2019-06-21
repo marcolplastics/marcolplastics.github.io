@@ -943,7 +943,7 @@ ul.shortcode-list i {
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
   height: 60px;
-  line-height: 60px;
+  line-height: 50px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
@@ -2534,6 +2534,7 @@ form input.error, form textarea.error {
   line-height: 5.14286rem;
   display: inline-block;
   color: #fff;
+  text-shadow: 0px 0px 22px #222;
   letter-spacing: 2px;
   font-weight: 900;
   margin-bottom: 40px;
@@ -2543,6 +2544,7 @@ form input.error, form textarea.error {
   font-size: 1.28571rem;
   font-weight: 700;
   color: #fff;
+  text-shadow: 0px 0px 10px #222;
   letter-spacing: 2px;
   margin-bottom: 5px;
 }
@@ -2947,6 +2949,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
+  padding: 4px;
 }
 .modGallery ul.gallery li a {
   position: relative;
@@ -2954,7 +2957,7 @@ form input.error, form textarea.error {
   overflow: hidden;
 }
 .modGallery ul.gallery li a .overlay {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   text-align: center;
@@ -2967,9 +2970,10 @@ form input.error, form textarea.error {
   transition: all 0.3s linear;
 }
 .modGallery ul.gallery li a .overlay .thumb-info {
-  top: 55%;
   position: relative;
-  opacity: 0;
+  top: 50%;
+  margin-top: -26px;
+  opacity: 1;
 }
 .modGallery ul.gallery li a h3 {
   color: #fff;
@@ -2978,19 +2982,6 @@ form input.error, form textarea.error {
 .modGallery ul.gallery li a p {
   color: #fff;
   font-size: 0.875rem;
-}
-.modGallery ul.gallery li a:hover .overlay {
-  opacity: 1;
-}
-.modGallery ul.gallery li a:hover .overlay .thumb-info {
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  position: relative;
-  top: 50%;
-  margin-top: -26px;
-  opacity: 1;
 }
 .modGallery ul.gallery li a:hover img {
   -moz-transform: scale(1.1);
@@ -3265,10 +3256,12 @@ body {
 
 .modSectionHeader.big h2 {
   font-size: 4rem;
+  text-shadow: 0px 0px 20px #222;
 }
 .modSectionHeader.big h3 {
   font-weight: normal;
   letter-spacing: 3px;
+  text-shadow: 0px 0px 10px #222;
 }
 
 .modSectionHeader.alt h2 {
@@ -3599,7 +3592,7 @@ body {
 .modTestimonials .slick-dots li button:before {
   font-size: 30px;
   top: -40px;
-}
+} 
 
 .modTestimonials.simple {
   padding: 0;
@@ -3619,7 +3612,7 @@ body {
 }
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
-    opacity: 1;
+    opacity: 0.6;
     background-color: rgba(255, 255, 255, 0.8);
     top: 0;
   }

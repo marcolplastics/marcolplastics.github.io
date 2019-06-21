@@ -2,85 +2,91 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/carousel/baths.jpg
+  - bg: images/carousel/1.jpg
     small_title:
       klass: bottom-to-top
-      text: Welcome
+      text: Welcome To
     title:
       klass: bottom-to-top
       text: Marcol Fabrications
-  - bg: images/carousel/welder.jpg
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Get in touch
+          link_to: /contact.html
+  - bg: images/carousel/2.jpg
     klass: centered-text
     small_title:
       klass: bottom-to-top
-      text: We make websites that are
+      text: Whatever you need
     title:
       klass: bottom-to-top
-      text: Creative &amp; Powerful
+      text: On budget and on time
     buttons:
       klass: bottom-to-top
       items:
-        - klass: boxed
-          text: View Features
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-        - text: Purchase Now
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: images/carousel/bolts.jpg
+        - text: Get in touch
+          link_to: /contact.html
+  - bg: images/carousel/3.jpg
+    klass: centered-text
     small_title:
       klass: bottom-to-top
-      text: This is a creative theme that you'll
+      text: Need some text
     title:
       klass: bottom-to-top
-      text: definitely love...
+      text: Need some text
     buttons:
       klass: bottom-to-top
       items:
-        - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-
-
-
+        - text: Get in touch
+          link_to: /contact.html
+  - bg: images/carousel/4.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: Need some text
+    title:
+      klass: bottom-to-top
+      text: Need some text
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Get in touch
+          link_to: /contact.html
+  
 works:
-  - image: images/category_images/scrubbing_and_filtration.jpg
-    title: Scrubbing &amp; Filtration Systems
-    link_to: services.html
+  - image: images/category_images/scrubbing.jpg
+    title: Scrubbing Systems
+    link_to: portfolio-scrubbing.html
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/category_images/equipment_cabinets.jpg
-    title: Equipment Cabinets
-    link_to: services.html
+  - image: images/category_images/enclosures.jpg
+    title: Enclosures
+    link_to: portfolio-enclosures.html
     klass: graphi-design
-    desc: Design &amp; Development
   - image: images/category_images/tanks.jpg
-    title: Tanks
-    link_to: services.html
+    title: Tanks &amp; Bunds
+    link_to: portfolio-tanks_and_bunds.html
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/category_images/ducting_and_pipework.jpg
-    title: Plastic Ducting &amp; Pipework
-    link_to: services.html
+  - image: images/category_images/ducting_and_extraction.jpg
+    title: Ducting &amp; Extraction Systems
+    link_to: portfolio-ducting_and_extraction.html
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/category_images/wet_benches.jpg
-    title: Wet Benches
-    link_to: services.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
+  - image: images/category_images/machine_guards.jpg
     title: Machine Guards
-    link_to: services.html
+    link_to: portfolio-machine_guards.html
     klass: graphi-design
-    desc: Design &amp; Development
   - image: images/category_images/drip_trays.jpg
-    title: Drip Trays
-    link_to: services.html
+    title: Pipework
+    link_to: portfolio-pipework_driptrays.html
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
+  - image: images/category_images/bespoke.jpg
     title: Bespoke Fabrication
-    link_to: services.html
+    link_to: portfolio-bespoke.html
     klass: graphi-design
-    desc: Design &amp; Development
+  - image: images/category_images/wet_benches.jpg
+    title: Installation
+    link_to: portfolio-installation.html
+    klass: graphi-design
 
 
 services:
@@ -97,29 +103,11 @@ services:
     title: Installation
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
 
-milestones:
-  - icon: folder-open
-    from: 0
-    to: 69
-    title: Projects Completed
-  - icon: coffee
-    from: 0
-    to: 726
-    title: Cups of coffee offered
-  - icon: thumbs-up
-    from: 0
-    to: 59
-    title: Happy clients
-  - icon: file-text
-    from: 0
-    to: 21
-    title: Articles Published
-
 ---
 
 
 <div class='mod modDefaultSlider'>
-  <div class='sequence' data-autostop='on' data-timeout='0'>
+  <div class='sequence' data-autostop='off' data-timeout='3000'>
     <a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
     </a>
@@ -145,7 +133,7 @@ milestones:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{ slide.bg }});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -217,7 +205,7 @@ milestones:
             <div class='overlay'>
               <div class='thumb-info'>
                 <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
+                <p style="color: red;">{{ work.desc }}</p>
               </div>
             </div>
           </a>
@@ -242,7 +230,7 @@ milestones:
   </div>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
+      <img class="fadeinleft" alt="" src="images/services.jpg" />
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
@@ -251,7 +239,7 @@ milestones:
           <div class='icon-text-simple'>
             <i class='fa fa-{{service.icon}}'></i>
             <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
+            <p style="color: red;">{{service.desc}}</p>
           </div>
           <div class='two spacing'></div>
         </div>
