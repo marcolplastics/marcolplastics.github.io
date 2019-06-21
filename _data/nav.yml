@@ -11,13 +11,13 @@
   section_id: portfolio
   children:
     - name: Scrubbing Systems
-      path: portfolio-scrubbing_extraction.html
+      path: portfolio-scrubbing.html
     - name: Enclosures
       path: portfolio-enclosures.html
     - name: Tanks &amp; Bunds
-      path: portfolio-tanks.html
+      path: portfolio-tanks_and_bunds.html
     - name: Ducting &amp; Extraction Systems
-      path: portfolio-ducting.html
+      path: portfolio-ducting_and_extraction.html
     - name: Machine Guards
       path: portfolio-machine_guards.html
     - name: Pipework
