@@ -37,35 +37,40 @@ works:
     klass: graphi-design
 ---
 
-<div class='full' style='background-image: url(images/page_headers/services.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our services" tagline="Get to know what we do" color="#fff" class="big" %}
+<div
+  class="full"
+  style="background-image: url(images/page_headers/services.jpg); color: #fff;"
+>
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our services" tagline="Get to know
+      what we do" color="#fff" class="big" %}
     </div>
   </div>
-  <div class='four spacing'></div>
+  <div class="four spacing"></div>
 </div>
 
-
-<div class='full'>
+<div class="full">
   <div class="mod modGallery">
-      <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-        {% for work in page.works %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ work.title }}</h3>
-                  <p style="color: red;">{{ work.desc }}</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  <div class='spacing'></div>
+    <ul
+      class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4"
+    >
+      {% for work in page.works %}
+      <li class="{{ work.klass }}">
+        <a href="{{ work.link_to }}">
+          <img alt="" src="{{ work.image }}" />
+          <div class="overlay">
+            <div class="thumb-info">
+              <h3>{{ work.title }}</h3>
+              <p>{{ work.desc }}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="spacing"></div>
 </div>
 
 <div class="full" style="background: #f5f5f5;">
@@ -74,18 +79,27 @@ works:
       {% include section-header.html title="Materials" %}
       <div class="spacing"></div>
       <p>
-        We are specialists in Polyprop Homo/Copolymer, PVC, PVDF, ABS HDPE, CPVC and Air line and can advise on the best and most suitable pipe system for your particular application.
-        We specialise in installing all types of chemical resistant plastic pipe-work and can advise on current standards and legislation governing the distribution of hazardous substances.
-        We can also manufacture non-standard pipe and fittings, if required.
-        We use up-to-date welding technology to carry out all types of pipe welding, whether it is heat socket welded/butt fusion/infrared welding.
+        With our years of experience in fabricating with Homo/Copolymer
+        Polyprop, PVC, PVDF, ABS, HDPE and CPVC, we can advise on the best and
+        most suitable material for your particular application.
       </p>
       <p>
-        We are able to offer solutions using COOL-FIT ABS Pre-insulated—a complete system solution for cooling applications.
-        Further information about COOL-FIT ABS solutions will be available shortly. In the meantime, please do not hesitate to contact us for information or advice.
+        We specialise in the manufacture and installation of all types of
+        chemical resistant polymers for pipework, tanks, ducting systems etc.
+        and can advise on current standards which may apply.
       </p>
       <p>
-        We have a large number of suppliers from which large discounts can be obtained and passed onto you.
-        Anything not in stock or off the shelf can easily be sourced and delivered anywhere in the country.
+        We use up-to-date welding technology to carry out all types of welding,
+        whether it’s hot gas welding, extrusion welding and for pipework
+        systems, heat socket weld / Butt fusion / Infrared welding (I/F) and
+        bead and crevice free welding.
+      </p>
+      <p>
+        We have a large number of reputable suppliers, sourcing from their large
+        distribution centres. Materials that are required whether in stock at
+        Marcol or need to be called in, will be planned into our lead times for
+        products to be built and delivered at the agreed delivery date
+        established with the customer at the time of ordering.
       </p>
       <div class="three spacing"></div>
     </div>
@@ -98,15 +112,18 @@ works:
       {% include section-header.html title="Design" %}
       <div class="spacing"></div>
       <p>
-        We offer a full design service for outline schemes, detail drawings, and specification.
-        This can include materials, manufacture, methods of installation and conformity to appropriate standards.
+        We offer a full design service for outline schemes, detail drawings, and
+        specification. This can include materials, manufacture, methods of
+        installation and conformity to appropriate standards.
       </p>
       <p>
-        We will work closely with you, providing continued feedback and improvements throughout the design stage of a project.
+        We will work closely with you, providing continued feedback and
+        improvements throughout the design stage of a project.
       </p>
       <p>
-        Our trained and experienced engineers are on hand to visit you at your place of work or on site,
-        whether it is a simple pipe installation or a detailed and complicated manufacturing project.
+        Our trained and experienced engineers are on hand to visit you at your
+        place of work or on site, whether it is a simple pipe installation or a
+        detailed and complicated manufacturing project.
       </p>
       <div class="three spacing"></div>
     </div>
@@ -119,18 +136,29 @@ works:
       {% include section-header.html title="Manufacture" %}
       <div class="spacing"></div>
       <p>
-        We can work from drawings submitted by you for manufacture, or produce our own working drawings.
-        With over 30 years of experience you can be sure that we provide a high level of quality and workmanship throughout the project.
-        We monitor projects throughout the manufacturing process and conduct end-product quality reviews.
+        We are happy to work from customers’ existing drawings, or if you
+        require, we are able to produce our own 3D manufacturing drawings. With
+        over 30 years of experience you can be sure that we will provide a high
+        level of quality and workmanship throughout the project. Using ITP’s
+        (“Inspection and Test Plans”) and QCP’s (“Quality Control Plans”), which
+        allows our customers and ourselves to monitor projects throughout the
+        manufacturing process and at the end of the project, carry out a FAT
+        (“Factory acceptance test”).
       </p>
       <p>
-        More clients are looking to have their equipment skid mounted prior to being delivered to site,
-        which reduces the on-site labour costs and keeps the pipe-work in a neat, tidy fashion.
-        We can produce general arrangement drawings for approval from something as simple as a flow process diagram.
-        Once approved, the skids are manufactured, valves installed, tagged and all pipe-work pressure tested, long before coming to site.
-        We can produce a fully-welded construction guaranteeing a virtually indestructible join that will not rust or decay.
-        The product is non-destructively tested before it leaves the workshop; test certification is available on request.
-        Building equipment this way can offer savings of at least 80% of the on-site installation cost.
+        For small bespoke systems, many clients are looking to have their
+        equipment skid mounted prior to being delivered to site. This reduces
+        the on-site labour costs considerably. We can produce drawings for
+        approval from something as simple as a P&ID (“Process and Identification
+        Diagram”).
+      </p>
+      <p>
+        Skid systems have the advantage of having all equipment installed,
+        tagged and all tested, long before coming to site.
+      </p>
+      <p>
+        Building equipment off site can offer huge savings against on-site
+        installation cost.
       </p>
       <div class="three spacing"></div>
     </div>
@@ -143,17 +171,23 @@ works:
       {% include section-header.html title="Installation" %}
       <div class="spacing"></div>
       <p>
-        We have qualified and skilled engineers working at our factory and on site.
-        Fully equipped installation teams will go where needed to install our fabricated assemblies.
-        Adaptable and resourceful, they are equipped to travel through the UK and abroad.
-        All our staff are fully qualified for the tasks undertaken and will be trained to comply with our method statements for site work.
-        Any specific site requirements will be incorporated into documentation specifically issued by project.
+        We have qualified and skilled engineers working out of our factory and
+        on customers sites. A fully equipped installation team will go wherever
+        needed to install your products. Adaptable and resourceful, they are
+        equipped to travel throughout the UK and abroad. All our staff are fully
+        qualified and trained for the tasks undertaken by them working strictly
+        to RAMs (“Risk and Method Statements”). Any specific site requirements
+        obtaining to a customer’ will be incorporated into documentation
+        specifically issued by project.
       </p>
       <p>
-        Health and safety is paramount to Marcol. We ensure that all our employees are fully trained in any equipment they use,
-        where necessary sending them on external courses to obtain recognised qualifications. In addition, our fabricators/installers are holders of
-        the EUSR National Water Hygiene Card—previously known as the “Blue Card”, the CITB Construction Skills Certification Scheme Operative Card and
-        the ECITB Client/Contractor National Safety Group Safety Passport, many of them at supervisor level.
+        Health and Safety is of absolute paramount of importance to Marcol. We
+        ensure that all our employees are fully trained in any equipment they
+        use, where necessary sending them on external courses to obtain
+        recognised qualifications. In addition, our fabricators/installers are
+        holders of CSCS cards and also hold CCNSG client/contractor national
+        safety passports, many of them at supervisor level. Supervisors are also
+        fully first aid qualified.
       </p>
       <div class="three spacing"></div>
     </div>
@@ -163,17 +197,23 @@ works:
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Modifications, service and repairs" %}
+      {% include section-header.html title="Modifications, service and repairs"
+      %}
       <div class="spacing"></div>
       <p>
-        During a project you may need to make changes or improvements.
-        Installations require routine maintenance to ensure continued operation and safety for the operator.
-        Routine maintenance can highlight a number of potential hazards that should be addressed before a problem arises;
-        damaged or broken components must be repaired or replaced.
+        During a project you may need to make changes, or improvements.
+        Installations require routine maintenance to ensure continued operation
+        and safety for the operator. Routine maintenance can highlight a number
+        of potential hazards that should be addressed before a problem arises
+        and damaged or broken components must be repaired or replaced, which
+        could be very costly.
       </p>
       <p>
-        Marcol can respond immediately—usually within 24hrs—to get you up and running with minimal downtime.
-        We can provide a visual inspection along with a written report.
+        With the knowledge gained by Marcol’s sales team over the years working
+        with clients in all types of industry, identify issues before they arise
+        is something we are more than happy to come to site and offer, whether
+        it’s just a simple visual inspection or a written report detailing any
+        preventative action required, or even possible improvements.
       </p>
       <div class="three spacing"></div>
     </div>
